@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filmoteca>
+    <pelicula estreno="1942" minutos="102">
+        <titulo>Casablanca</titulo>
+        <director>Michael Curtiz</director>
+        <guion>
+            <guionista>Howard Koch</guionista>
+            <guionista>Julius J. Epstein</guionista>
+        </guion>
+        <interpretes>
+            <interprete papel="Rick Blaine">Humphrey Bogart</interprete>
+            <interprete papel="Ilsa Lund">Ingrid Bergman</interprete>
+        </interpretes>
+    </pelicula>
+    <pelicula estreno="1960" minutos="125">
+        <titulo>The Apartment</titulo>
+        <director>Billy Wilder</director>
+        <guion>
+            <guionista>Billy Wilder</guionista>
+        </guion>
+        <interpretes>
+            <interprete papel="C.C. Baxter">Jack Lemmon</interprete>
+            <interprete papel="Fran Kubelik">Shirley MacLaine</interprete>
+        </interpretes>
+    </pelicula>
+    </filmoteca>

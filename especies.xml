@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE especies SYSTEM "especies.dtd">
+<especies>
+    <especie estado="amenazado" identificador="es1">
+        <nombre nombre-cientifico="Panthera leo">León</nombre>
+        <familia>Felidae</familia>
+        <areas>
+            <zona>África subsahariana</zona>
+            <zona>India</zona>
+        </areas>
+    </especie>
+
+    <especie estado="sin-peligro" identificador="es2">
+        <nombre nombre-cientifico="Canis lupus">Lobo</nombre>
+        <familia>Canidae</familia>
+        <areas>
+            <zona>Europa</zona>
+        </areas>
+    </especie>
+</especies>

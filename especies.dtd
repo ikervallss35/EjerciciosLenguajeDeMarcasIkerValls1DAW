@@ -1,0 +1,9 @@
+<!ELEMENT especies (especie+)>
+<!ELEMENT especie (nombre, familia, areas)>
+<!ATTLIST especie estado (extinguido | amenazado | sin-peligro) #REQUIRED 
+identificador ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre nombre-cientifico CDATA #REQUIRED>
+<!ELEMENT familia (#PCDATA)>
+<!ELEMENT areas (zona+)>
+<!ELEMENT zona (#PCDATA)>

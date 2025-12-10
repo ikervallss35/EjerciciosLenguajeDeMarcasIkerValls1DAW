@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE congreso SYSTEM "congreso.dtd">
+<congreso>
+  <ponentes>
+    <ponente id_ponente="p1">
+      <nombre>Ana Martinez</nombre>
+      <organizacion>Universidad de Valencia</organizacion>
+    </ponente>
+    <ponente id_ponente="p2">
+      <nombre>Carlos Gomez</nombre>
+      <organizacion>Instituto Tecnologico de Madrid</organizacion>
+    </ponente>
+  </ponentes>
+
+    <charlas>
+    <charla id_ponente_ref="p1" sala="A1">
+      <titulo>Innovacion en Software Libre</titulo>
+      <resumen>Exploracion de nuevas herramientas abiertas.</resumen>
+    </charla>
+    <charla id_ponente_ref="p2" sala="B2">
+      <titulo>Seguridad en la Nube</titulo>
+      <resumen>Practicas para proteger datos en entornos en la nube.</resumen>
+    </charla>
+    <charla id_ponente_ref="p1">
+      <titulo>Educacion Tecnologica</titulo>
+      <resumen>Como integrar la tecnologia en el aula.</resumen>
+    </charla>
+  </charlas>
+
+  <footer>Gracias por asistir al &nombre_congreso;.</footer>
+</congreso>

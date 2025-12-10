@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE registro_fichajes [
+    <!ELEMENT registro_fichajes (fichaje+)>
+    <!ELEMENT fichaje (empleado, fecha, hora)>
+    <!ELEMENT empleado (#PCDATA)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT hora (#PCDATA)>
+    <!ATTLIST fichaje tipo (entrada | salida) #REQUIRED>
+]>
+<registro_fichajes>
+    <fichaje tipo="entrada">
+        <empleado>Diego Alcala</empleado>
+        <fecha>09-26-2025</fecha>
+        <hora>08:00</hora>
+    </fichaje>
+
+    <fichaje tipo="salida">
+        <empleado>Fabian Sanchez</empleado>
+        <fecha>09-26-2025</fecha>
+        <hora>14:00</hora>
+    </fichaje>
+
+    <fichaje tipo="entrada">
+        <empleado>Carla Lopez</empleado>
+        <fecha>09-26-2025</fecha>
+        <hora>09:00</hora>
+    </fichaje>
+</registro_fichajes>

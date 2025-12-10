@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="facturas.xsd">
+
+    <factura id_factura="FACT-00123" metodo_pago="tarjeta" pagada="true">
+        <fecha_emision>2025-10-14</fecha_emision>
+        <empresa_emisora>PcBox.</empresa_emisora>
+        <importe_total>350.75</importe_total>
+        <iva>21</iva>
+    </factura>
+
+    <factura id_factura="FACT-00124" metodo_pago="efectivo">
+        <fecha_emision>2025-10-15</fecha_emision>
+        <empresa_emisora>Amazon</empresa_emisora>
+        <importe_total>1200.00</importe_total>
+        <iva>10</iva>
+    </factura>
+
+</facturas>

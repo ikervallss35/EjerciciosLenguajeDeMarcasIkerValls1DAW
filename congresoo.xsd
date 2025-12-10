@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.mi-congreso.com/schema"
+    xmlns:cong="http://www.mi-congreso.com/schema"
+    elementFormDefault="qualified">
+<xs:element name="congreso">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="ponentes">
+                <xs:complexType>
+                    <xs:sequence>
+            <xs:element name="ponente" minOccurs="2" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="nombre" type="xs:string"/>
+                        <xs:element name="organizacion" type="xs:string"/>
+                    </xs:sequence>
+                        <xs:attribute name="id" use="required">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="P[0-9]{2}"/>
+                                    </xs:restriction>
+                                   </xs:simpleType>
+                        </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+        </xs:element>
+                        
+            <xs:element name="charlas">
+                <xs:complexType>
+                    <xs:sequence>
+                    <xs:element name="charla" minOccurs="3" maxOccurs="unbounded">
+                    <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="titulo" type="xs:string"/>
+                        <xs:element name="resumen" type="xs:string"/>
+                        <xs:element name="sala" type="cong:FormatoSala"/>
+                    </xs:sequence>
+                    <xs:attribute name="ponente_ref" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      </xs:sequence>
+      </xs:complexType>
+
+        <xs:key name="ponenteKey">
+            <xs:selector xpath=".//cong:ponente"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+        <xs:keyref name="charlaPonenteRef" refer="cong:ponenteKey">
+            <xs:selector xpath=".//cong:charla"/>
+            <xs:field xpath="@ponente_ref"/>
+        </xs:keyref>
+    </xs:element>
+    <xs:simpleType name="FormatoSala">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="Sala [A-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

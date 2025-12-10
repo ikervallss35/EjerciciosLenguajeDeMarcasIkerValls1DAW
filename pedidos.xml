@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="pedidos.xsd">
+
+    <pedido id_pedido="PED-1234" estado="procesando" urgente="true"> 
+        <fecha>2025-10-13</fecha>
+    <cliente>Arturo Guerrero</cliente>
+    <total_pedido>149.99</total_pedido>
+</pedido>
+
+<pedido id_pedido="PED-1235" estado="enviado"> 
+        <fecha>2025-10-13</fecha>
+    <cliente>Lucas Garcia</cliente>
+    <total_pedido>200.00</total_pedido>
+</pedido>
+</pedidos>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cong:congreso xmlns:cong="http://www.mi-congreso.com/schema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mi-congreso.com/schema congresoo.xsd">
+
+    <cong:ponentes>
+        <cong:ponente id="P01">
+            <cong:nombre>Laura Sanchez</cong:nombre>
+            <cong:organizacion>Universidad de Madrid</cong:organizacion>
+        </cong:ponente>
+
+        <cong:ponente id="P02">
+            <cong:nombre>Carlos Gomez</cong:nombre>
+            <cong:organizacion>TechLabs</cong:organizacion>
+        </cong:ponente>
+    </cong:ponentes>
+
+    <cong:charlas>
+        <cong:charla ponente_ref="P01">
+            <cong:titulo>Inteligencia Artificial Aplicada</cong:titulo>
+            <cong:resumen>Como los modelos de IA estan transformando la educacion.</cong:resumen>
+            <cong:sala>Sala A</cong:sala>
+        </cong:charla>
+
+        <cong:charla ponente_ref="P02">
+            <cong:titulo>Ciberseguridad en la nube</cong:titulo>
+            <cong:resumen>Buenas practicas para proteger datos en entornos cloud.</cong:resumen>
+            <cong:sala>Sala B</cong:sala>
+        </cong:charla>
+
+        <cong:charla ponente_ref="P01">
+            <cong:titulo>Machine Learning para todos</cong:titulo>
+            <cong:resumen>Introduccion al aprendizaje automatico para principiantes.</cong:resumen>
+            <cong:sala>Sala C</cong:sala>
+        </cong:charla>
+    </cong:charlas>
+
+</cong:congreso>

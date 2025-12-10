@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bdcomponentes [
+<!ELEMENT bdcomponentes (componente+)>
+<!ELEMENT componente (nombre,(precio | precioconIVA),tipo,medida)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT precioconIVA (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT medida (#PCDATA)>
+<!ATTLIST componente codigo ID #REQUIRED> 
+]>
+<bdcomponentes>
+    <componente codigo="Intel3">
+        <nombre>procesador</nombre>
+        <precioconIVA>363.00</precioconIVA>
+        <tipo>componente hw</tipo>
+        <medida>12 cm</medida>
+    </componente>
+
+    <componente codigo="NvidiaGeForceRTX3080">
+        <nombre>grafica</nombre>
+        <precio>700.00</precio>
+        <tipo>componente hw</tipo>
+        <medida>28 cm</medida>
+    </componente>
+    
+     <componente codigo="RamCorsair16GB">
+        <nombre>memoria RAM</nombre>
+        <precioconIVA>96.80</precioconIVA>
+        <tipo>componente hw</tipo>
+        <medida>14 cm</medida>
+    </componente>
+</bdcomponentes>
+<!--Se desea crear un documento XML que represente una base de datos de componentes de hardware.
+Cada <componente> debe tener:
+Un codigo unico como atributo obligatorio (ID).
+Un nombre.
+Un precio, que puede ser con o sin IVA (solo uno).
+Un tipo.
+Una medida fisica. -->

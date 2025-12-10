@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="biblioteca.xsd">
+    
+ <libro>
+        <titulo>
+            Sombras de invierno</titulo>
+        <autor>
+            Neil Gaiman</autor>
+        <anio_publicacion>
+            2022
+        </anio_publicacion>
+        <editorial>
+            Minotauro</editorial>
+    </libro>
+
+    <libro>
+        <titulo>
+            Horizonte perdido
+        </titulo>
+        <autor>
+            Haruki Murakami
+        </autor>
+        <anio_publicacion>
+            2024
+        </anio_publicacion>
+    </libro>
+
+    <libro>
+        <titulo>
+            La melodia de los secretos</titulo>
+        <autor>
+            Isabel Allende</autor>
+        <anio_publicacion>
+            2023
+        </anio_publicacion>
+        <editorial>
+            Montena</editorial>
+    </libro>
+
+</biblioteca>

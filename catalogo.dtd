@@ -1,0 +1,10 @@
+  <!ELEMENT catalogo (producto+)>
+    <!ELEMENT producto (nombre,marca,categoria,precio,descripcion?)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT marca (#PCDATA)>
+    <!ELEMENT categoria (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT descripcion (#PCDATA)>
+    <!ATTLIST producto id ID #REQUIRED>
+    <!ATTLIST producto en_oferta CDATA #FIXED "si">
+    <!ATTLIST precio moneda CDATA "EUR">

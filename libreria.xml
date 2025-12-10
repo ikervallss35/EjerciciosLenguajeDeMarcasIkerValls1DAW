@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programming_library 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="libreria.xsd">
+  <language>
+    <name>Python</name>
+    <creator>Guido van Rossum</creator>
+    <year_created>1991</year_created>
+    <description>High-level programming language focused on readability and simplicity.</description>
+  </language>
+  <language>
+    <name>Java</name>
+    <creator>James Gosling</creator>
+    <year_created>1995</year_created>
+    <description>Object-oriented programming language designed to run on any platform via the JVM.</description>
+  </language>
+  <language>
+    <name>JavaScript</name>
+    <creator>Brendan Eich</creator>
+    <year_created>1995</year_created>
+    <description>Lightweight scripting language mainly used for interactive web development.</description>
+  </language>
+</programming_library>
