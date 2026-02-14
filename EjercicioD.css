@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenedor-principal {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+    "header header"
+    "contenido lateral"
+    "footer footer";
+
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#main-header {grid-area: header;
+}
+.contenido { grid-area: contenido;
+}
+.lateral { grid-area: lateral;
+}
+.footer { grid-area: footer;
+}

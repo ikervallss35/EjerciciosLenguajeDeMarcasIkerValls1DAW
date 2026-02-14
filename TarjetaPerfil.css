@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.tarjeta-perfil{
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px gray;
+    background-color: white;
+}
+
+.tarjeta-header{
+    display: flex;
+    align-items: center;
+}
+
+.tarjeta-header img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tarjeta-cuerpo p{
+    margin-bottom: 15px;
+}
+
+.tarjeta-cuerpo h3{
+    display: inline-block;              
+    border-bottom: 2px solid #1585FF;
+    padding-bottom: 4px;
+    margin-top: 0;
+    margin-bottom: 20px;               
+}
+
+.lista-habilidades{
+    list-style: none;
+    margin: 0;                          
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.lista-habilidades li{
+    padding: 8px;
+    border-radius: 6px;
+    text-align: center;
+    background-color: #e9f5ff;
+    color: #017aff;
+    font-weight: bold;
+}
+
+.tarjeta-footer{
+    margin-top: 25px;                 
+}
+
+.tarjeta-footer a{
+    display: block;
+    text-decoration: none;
+    background-color: #027BFF;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    width: 120px;
+    font-weight: bold;
+    margin: 0 auto;
+    transition: all;
+}
+
+.tarjeta-footer a:hover{
+    background-color: green;
+}
+
+@media (min-width:768px) {
+    .lista-habilidades{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

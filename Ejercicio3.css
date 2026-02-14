@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Contenedor padre con altura, borde y posición relativa */
+.contenedor-padre{
+        position: relative; 
+        width: 600px;
+        height: 600px;
+        border: 3px solid black;
+        margin-top: 20px;
+}
+
+/* Caja relativa desplazada 10px */
+.caja-relativa {
+    position: relative;
+    top: 10px;
+}
+
+.caja-relativa {
+    position: relative;
+    top: 10px;
+}
+
+/* Caja absoluta en la esquina inferior derecha del contenedor */
+.caja-absoluta{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #28A745;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+/* Caja fija anclada a la esquina superior derecha de la ventana */
+.caja-fija{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #DC3545;
+    text-align: center;
+    color: white;
+    padding-top: 40px
+}

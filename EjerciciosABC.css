@@ -1,0 +1,68 @@
+/*Ejercicio A*/
+/* Cambia el estilo de todos los párrafos*/
+p { 
+    font-family: Arial, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Aplica estilo al artículo*/
+article {   
+            border: 1px solid #cccccc;
+            padding: 20px;
+            margin: 10px 0;
+}
+
+/*Ejercicio B*/
+/* Estiliza la cabecera principal con id main-header */
+#main-header {  
+                background-color: #030301;
+                color: white;
+                padding: 3rem;
+                text-align: center;
+}
+
+/* Estiliza la cabecera interna de los artículos */
+article header {
+                    background-color: transparent;
+                    color: #F57900;
+}
+
+/* Diseño del artículo con id noticia */
+#noticia {
+            background-color: #ffffff;
+            border: 1px solid #dcdde1;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Resalta la barra lateral */
+aside {
+        background-color: #f5f6fa;
+        padding: 1rem;
+        border-left: 5px solid blue;
+}
+
+/*Ejercicio C*/
+/*Aplicar Flexbox al menú para ponerlo en fila*/
+.menu-nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            list-style: none;
+}
+
+/*Quita el subrayado de los enlaces y pone el color azul a los títulos del índice*/
+.menu-nav a {
+            text-decoration: none;
+            color:#3498db;
+
+}
+
+/*Efecto al pasar el ratón*/
+.menu-nav a:hover {
+    color: white;
+}

@@ -1,0 +1,16 @@
+/*Ejercicio 1*/
+/*Cambia el color de todos los párrafos a gris */
+p {
+    color: grey;
+}
+
+/*Párrafo con class destacado en azul y negrita*/
+.destacado {
+            font-weight: bold;
+            color: blue;
+}
+
+/* Cambia el fondo a amarillo cuando el cursor pasa por un párrafo */
+p:hover {
+        background-color: yellow;
+}
