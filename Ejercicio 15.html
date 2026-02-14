@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 15</title>
+</head>
+<body>
+    <form action="/registrar" method="post">
+        <fieldset>
+            <legend>Datos fiscales</legend>
+            <select name="sectores" multiple="2" size="4">
+                <option value="automocion">Automocion</option>
+                <option value="metal">Metal</option>
+                <option value="informatica">Informatica</option>
+                <option value="finanzas">Finanzas</option>
+            </select>
+            <br>
+
+            <input type="checkbox" id="autonomo"> <label for="autonomo">Autonomo</label>
+            <input type="checkbox" id="ajena"> <label for="ajena">Cuenta ajena</label>
+            <input type="checkbox" id="nosabe"> <label for="nosabe">No sabe</label><br>
+
+            <label for="funcion">Describa su función:</label><br>
+            <textarea id="funcion" rows="4" cols="40" placeholder="Escriba aqui"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

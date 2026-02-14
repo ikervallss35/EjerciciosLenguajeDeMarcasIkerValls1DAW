@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 16</title>
+</head>
+<body>
+    <form action="/registrar" method="post">
+    <fieldset>
+    <legend>Laboral</legend>
+    
+    <input type="checkbox" id="ajena"> <label for="ajena">Por cuenta ajena</label>
+    <input type="checkbox" id="autonomo"> <label for="autonomo">Autónomo</label>
+
+    <br>¿Alguna vez en el extranjero?<br>
+    
+    <input type="radio" name="extranjero" id="si"> <label for="si">Sí</label>
+    <select name="zona">
+        <option value="ue">Dentro de la UE</option>
+        <option value="fuera">Fuera de la UE</option>
+    </select>
+    <br>
+    <input type="radio" name="extranjero" id="no"> <label for="no">No</label>
+</fieldset>
+        <fieldset>
+            <legend>Personal</legend>
+
+            <label for="apellidos_nombre">Apellidos y nombre:</label>
+            <input type="text" id="apellidos_nombre" name="apellidos_nombre">
+            <br>
+
+            <label for="conocimientos">Conocimientos sobre:</label><br>
+            <select id="conocimientos" name="conocimientos" multiple size="4">
+                <option value="info">Informática</option>
+                <option value="cond">Conducción</option>
+                <option value="fin">Finanzas</option>
+                <option value="ley">Leyes</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>

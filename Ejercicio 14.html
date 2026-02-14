@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    <form action="/registrar" method="post">
+        <fieldset>
+            <legend>Datos fiscales</legend>
+            <input type="radio" name="situacion" id="paro"> <label for="paro">En paro</label><br>
+            <input type="radio" name="situacion" id="autonomo"> <label for="autonomo">Autónomo</label><br>
+            <input type="radio" name="situacion" id="ajena"> <label for="ajena">Por c. ajena</label>
+        </fieldset>
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre"><br>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos"><br>
+
+            <label for="sueldo">Sueldo:</label>
+            <select id="sueldo">
+                <option value="mas">Más de 400 euros</option>
+                <option value="menos">Menos de 400 euros</option>
+                <option value="variables">Variables</option>
+            </select>
+            <br>
+            <input type="checkbox" id="enfermedad"> <label for="enfermedad">Con enfermedad profesional</label><br>
+            <input type="checkbox" id="padres"> <label for="padres">Con padres a cargo</label><br>
+            <input type="checkbox" id="hijos"> <label for="hijos">Con hijos a cargo</label>
+        </fieldset>
+    </form>
+</body>
+</html>
