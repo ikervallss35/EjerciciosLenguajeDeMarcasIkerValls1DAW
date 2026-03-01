@@ -2,15 +2,70 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Ejercicio D</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejemplo de web semántica para aprender CSS.">
+    <title>Mi Web Semántica - Aprendiendo CSS</title>
     <link rel="stylesheet" href="EjercicioD.css">
 </head>
-    <body>
-        <div class="contenedor-principal">
-            <header id="main-header">Header</header>
-            <main class="contenido">Contenido principal</main>
-            <aside class="lateral">Barra lateral</aside>
-            <footer class="footer">Footer</footer>
-        </div>
-    </body>
+<body>
+<div class="contenedor-principal">
+    <header id="main-header">
+        <h1>Diario Tecnológico</h1>
+
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#noticia">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="noticia">
+            <header>
+                <h2>La Revolución de la Web Semántica</h2>
+                <p>Publicado por <em>Juan Pérez</em> el 
+                    <time datetime="2025-03-15">15 de marzo de 2025</time>
+                </p>
+            </header>
+
+            <p>HTML5 no solo es una actualización, sino una <strong>revolución</strong> que permite crear sitios más accesibles.</p>
+
+            <figure>
+                <img src="web.semantica.png" alt="Esquema de etiquetas semánticas de HTML5" width="442" height="540">
+                <figcaption>Fig 1. Ejemplo de la estructura visual de un documento semántico.</figcaption>
+            </figure>
+
+            <p>Al separar el contenido de la apariencia, el código es más fácil de mantener y más flexible.</p>
+
+            <blockquote cite="https://www.w3.org/">
+                <p>La web es más que un conjunto de documentos; es una plataforma de aplicaciones.</p>
+            </blockquote>
+
+            <section>
+                <h3>Comentarios</h3>
+                <p>Aquí irían las opiniones de los lectores.</p>
+            </section>
+
+            <details>
+                <summary>Más detalles técnicos</summary>
+                <p>HTML5 introdujo etiquetas como nav, main, section y article.</p>
+            </details>
+        </article>
+    </main>
+
+    <aside>
+        <h4>Enlaces de interés</h4>
+        <ul>
+            <li><a href="https://validator.w3.org/" target="_blank" rel="noopener noreferrer">Validador W3C</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+        </ul>
+    </aside>
+    <footer id="contacto">
+        <p>&copy; 2025 Diario Tecnológico. Todos los derechos reservados.</p>
+        <p><a href="mailto:info@ejemplo.com">Contacto de soporte</a></p>
+    </footer>
+
+</div>
+</body>
 </html>

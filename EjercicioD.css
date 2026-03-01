@@ -15,11 +15,15 @@
   margin: 0 auto;
 }
 
-#main-header {grid-area: header;
+#main-header {
+  grid-area: header;
 }
-.contenido { grid-area: contenido;
+.contenido { 
+  grid-area: contenido;
 }
-.lateral { grid-area: lateral;
+.lateral { 
+  grid-area: lateral;
 }
-.footer { grid-area: footer;
+.footer { 
+  grid-area: footer;
 }

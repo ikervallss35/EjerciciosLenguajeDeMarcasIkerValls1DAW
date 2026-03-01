@@ -17,11 +17,6 @@
     top: 10px;
 }
 
-.caja-relativa {
-    position: relative;
-    top: 10px;
-}
-
 /* Caja absoluta en la esquina inferior derecha del contenedor */
 .caja-absoluta{
     position: absolute;
