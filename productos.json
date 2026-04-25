@@ -1,0 +1,14 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Nombre 1",
+      "categorias": ["categoria 1", "categoria 2"]
+    },
+    {
+      "id": 2,
+      "nombre": "Nombre 2",
+      "categorias": ["categoria 1", "categoria 3"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "productos": {
+            "type": "array",
+            "items": {
+                "type":"object",
+                "properties": {
+                    "id": {"type": "number"},
+                    "nombre": {"type": "string"},
+                    "precio": {"type": "number", "exclusiveMinimum": 1},
+                    "stock": {"type": "number", "minimum": 0}
+                },
+            "required": ["id", "nombre", "precio", "stock"],
+            "additionalProperties": false
+        }
+      }
+    },
+    "required": ["productos"]
+}

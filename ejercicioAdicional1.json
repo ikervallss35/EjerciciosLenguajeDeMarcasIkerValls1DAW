@@ -1,0 +1,8 @@
+{
+  "alumno": {
+    "@id": "A1",
+    "nombre": "Laura",
+    "edad": 22,
+    "asignaturas": ["Programación", "Bases de datos"]
+  }
+}

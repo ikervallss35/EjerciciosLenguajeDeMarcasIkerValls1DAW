@@ -1,0 +1,20 @@
+{
+    "red": {
+        "equipos":{
+            "equipo":[
+            {
+            "@id": "pc01",
+            "nombre": "EquipoOficina",
+            "sistema": "Windows",
+            "ip": "192.168.0.10"
+        },
+        {
+        "@id": "pc02",
+            "nombre": "ServidorBackup",
+            "sistema": "Linux",
+            "ip": "192.168.0.20"
+        }
+    ]
+}
+}
+}

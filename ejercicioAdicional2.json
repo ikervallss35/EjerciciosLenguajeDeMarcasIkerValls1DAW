@@ -1,0 +1,29 @@
+{
+  "centro": {
+    "curso": {
+      "@codigo": "ASIR2",
+      "nombre": "Administración de Sistemas Informáticos en Red",
+      "anyo": 2025,
+      "alumnos": {
+        "alumno": [
+          {
+            "@id": "1",
+            "nombre": "Ana",
+            "edad": 20,
+            "modulos": {
+              "modulo": ["Redes", "Lenguajes de Marcas"]
+            }
+          },
+          {
+            "@id": "2",
+            "nombre": "Juan",
+            "edad": 22,
+            "modulos": {
+              "modulo": ["Bases de Datos"]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

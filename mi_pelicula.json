@@ -1,0 +1,7 @@
+{
+  "titulo": "Título de la película",
+  "director": "Nombre del director",
+  "anio": 2001,
+  "esPeliculaEpica": true,
+  "actores": ["Actor 1", "Actor 2"]
+}
